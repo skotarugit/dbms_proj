@@ -1,0 +1,12 @@
+<!-- templates/home.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home - WelcomeHome</title>
+</head>
+<body>
+    <h1>Welcome, {{ username }}!</h1>
+    <p>Role: {{ role }}</p>
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
